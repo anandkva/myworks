@@ -3,9 +3,9 @@ import "./style.css";
 const Admin = () => {
   return (
     <>
-      <div className="container-fulid">
+      <div className="container">
         <div className="content">
-          <h2 style={{ textAlign: "center", fontWeight: "bold"}} id="terms">
+          <h2 className="content-head">
             GUVI - ZEN Class Terms &amp; Conditions
           </h2>
           <p style={{textIndent: "50px"}}>
@@ -50,6 +50,7 @@ const Admin = () => {
                 </li>
               </ol>
             </li>
+            <br />
             <li>
               <strong>Transfer</strong> <br />
               Shifting from one batch to another is termed as transfer. This
@@ -78,6 +79,7 @@ const Admin = () => {
                 </li>
               </ol>
             </li>
+            <br />
             <li>
               <strong>Break</strong>
               <br />A break can be initiated in the following instances
@@ -94,6 +96,7 @@ const Admin = () => {
                 </li>
               </ol>
             </li>
+            <br />
             <li>
               <strong>Placement assistance</strong>
               <br />
@@ -103,6 +106,7 @@ const Admin = () => {
               to meet the performance criteria set by GUVI-ZEN team. GUVI-ZEN
               will only assist them for the placements.
             </li>
+            <br />
             <li>
               <strong>Expulsion and Suspension</strong>
               <br />
@@ -126,7 +130,7 @@ const Admin = () => {
                   Any sort of malpractice while attending interviews/hackathons
                 </li>
                 <li>
-                  Improper/ unceremonious behavior during
+                  Improper/ unceremonious behavior during{" "}
                   <strong>Live Zen Classes</strong>
                 </li>
                 <li>
@@ -147,12 +151,14 @@ const Admin = () => {
                 </li>
               </ol>
             </li>
+            <br />
             <li>
               <strong>GUVI-Privacy Policy</strong> -{" "}
               <a href="http://guvi.in/privacy-policy" target="”_blank”">
                 guvi.in/privacy-policy
               </a>
             </li>
+            <br />
             <li>
               <strong>GUVI-Terms of service</strong> -{" "}
               <a href="http://guvi.in/terms-of-service" target="”_blank”">
@@ -162,7 +168,7 @@ const Admin = () => {
           </ol>
         </div>
         <div className="content-two">
-        <h2 style={{ textAlign: "center", fontWeight: "bold" }}>ANNEXURE UNDERTAKING</h2>
+        <h2 className="content-head">ANNEXURE UNDERTAKING</h2>
           <ul>
             <li>
               I will maintain a <strong>minimum of 95% attendance</strong> on
