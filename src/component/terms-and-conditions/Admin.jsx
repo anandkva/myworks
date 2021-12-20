@@ -3,7 +3,7 @@ import "./style.css";
 const Admin = () => {
   return (
     <>
-      <div className="container">
+      <div className="container-fulid">
         <div className="content">
           <h2 style={{ textAlign: "center", fontWeight: "bold"}} id="terms">
             GUVI - ZEN Class Terms &amp; Conditions
