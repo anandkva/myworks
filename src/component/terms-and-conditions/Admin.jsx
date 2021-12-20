@@ -1,29 +1,20 @@
 import "./style.css";
+
 const Admin = () => {
   return (
     <>
       <div className="container">
-        <div className="header">
-          <a href="https://www.guvi.in/" target="”_blank”">
-            <img
-              className="img-fluid"
-              src="./assects/logonew.PNG"
-              alt="header"
-            />
-          </a>
-        </div>
-        <br />
         <div className="content">
-          <h3 style={{ textAlign: "center" }} id="terms">
+          <h2 style={{ textAlign: "center", fontWeight: "bold"}} id="terms">
             GUVI - ZEN Class Terms &amp; Conditions
-          </h3>
-          <p>
+          </h2>
+          <p style={{textIndent: "50px"}}>
             These terms along with those terms contained in the Termination
             Clause set out to define the contractual terms that are signed
             between GUVI-ZEN and students (“Students”) in relation to the{" "}
             <strong>GUVI-ZEN Programme</strong>.
           </p>
-          <p>
+          <p style={{textIndent: "50px"}}>
             Once enrolment is accepted by GUVI-ZEN, these Terms and Conditions
             become legally binding. All students agree to be bound by the
             regulations, policies and procedures of GUVI. However, placement in
@@ -170,10 +161,9 @@ const Admin = () => {
             </li>
           </ol>
         </div>
-        <hr />
         <div className="content-two">
+        <h2 style={{ textAlign: "center", fontWeight: "bold" }}>ANNEXURE UNDERTAKING</h2>
           <ul>
-            <h3 style={{ textAlign: "center" }}>ANNEXURE UNDERTAKING</h3>
             <li>
               I will maintain a <strong>minimum of 95% attendance</strong> on
               all days for the entire duration of the program.
@@ -244,45 +234,6 @@ const Admin = () => {
             </li>
           </ul>
         </div>
-        <hr />
-        <div>
-          <div
-            className="row footer"
-            style={{ margin: "auto", textAlign: "center" }}
-          >
-            <div className="col-sm-12 col-md-4 footer-info">
-              <i className="fa fa-address-book"></i>
-              <a href="tel:+04466469865">044 6646 9865</a>
-            </div>
-            <div className="col-sm-12 col-md-4 footer-info">
-              <i className="fa fa-envelope-o"></i>
-              <a href="mailto:zen@guvi.in" target="”_blank”">
-                zen@guvi.in
-              </a>
-            </div>
-            <div className="col-sm-12 col-md-4 footer-info">
-              <i className="fa fa-globe"></i>
-              <a href="http://guvi.i0" target="”_blank”">
-                www.guvi.io
-              </a>
-            </div>
-          </div>
-          <div>
-            <p className="footer-adress">
-              <i className="fa fa-map-marker"></i>{" "}
-              <a
-                href="https://www.google.com/search?q=IITM+Research+park+-+phase+2%2C+module+%239%2C+3rd+floor%2C+D+block%2C+Kanagam+Rd%2C+Tharamani%2C+Chennai%2C+Tamil+Nadu+600113&rlz=1C1UEAD_enIN982IN982&oq=IITM+Research+park+-+phase+2%2C+module+%239%2C+3rd+floor%2C+D+block%2C+Kanagam+Rd%2C+Tharamani%2C+Chennai%2C+Tamil+Nadu+600113&aqs=chrome..69i57.848j0j9&sourceid=chrome&ie=UTF-8#"
-                target="_blank"
-                rel="noreferrer"
-              >
-                IITM Research park - phase 2, module #9, 3rd floor, D block,
-                Kanagam Rd, Tharamani, Chennai, Tamil Nadu 600113
-              </a>
-            </p>
-          </div>
-          <div className="footerline"></div>
-        </div>
-        <br />
       </div>
     </>
   );
